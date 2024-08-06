@@ -1,4 +1,4 @@
 name: lastpiece
 version: '0.0-Alpha'
-main: org.lastpiece.lastpiece.Lastpiece
+main: Main
 api-version: '1.21'
