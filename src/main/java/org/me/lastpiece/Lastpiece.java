@@ -5,6 +5,7 @@ import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.me.lastpiece.Events.Mana;
 import org.me.lastpiece.Events.playerJoin;
+import org.me.lastpiece.Listeners.onInteract;
 
 public final class Lastpiece extends JavaPlugin {
 
@@ -19,10 +20,14 @@ public final class Lastpiece extends JavaPlugin {
         //Mana
         manaInstance = new Mana();
         manaInstance.init();
+
+        //Item Interact
+        getServer().getPluginManager().registerEvents(new onInteract(), this);
+
+        //Player Join
         getServer().getPluginManager().registerEvents(new playerJoin(), this);
 
-
-        Bukkit.broadcastMessage(ChatColor.RED + "[SERVER] " + ChatColor.GREEN + "Lastpiece Plguin ");
+        Bukkit.broadcastMessage(ChatColor.RED + "[SERVER] " + ChatColor.GREEN + "Lastpiece Plugin ");
 
     }
 
