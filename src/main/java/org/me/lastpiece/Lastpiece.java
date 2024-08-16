@@ -5,6 +5,7 @@ import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.me.lastpiece.Events.Mana;
 import org.me.lastpiece.Events.playerJoin;
+import org.me.lastpiece.Events.playerLeave;
 import org.me.lastpiece.Listeners.onInteract;
 
 public final class Lastpiece extends JavaPlugin {
@@ -26,6 +27,9 @@ public final class Lastpiece extends JavaPlugin {
 
         //Player Join
         getServer().getPluginManager().registerEvents(new playerJoin(), this);
+
+        //Player Leave
+        getServer().getPluginManager().registerEvents(new playerLeave(), this);
 
         Bukkit.broadcastMessage(ChatColor.RED + "[SERVER] " + ChatColor.GREEN + "Lastpiece Plugin ");
 
