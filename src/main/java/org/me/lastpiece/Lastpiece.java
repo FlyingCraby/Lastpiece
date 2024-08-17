@@ -3,6 +3,8 @@ package org.me.lastpiece;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.me.lastpiece.Command.editCap;
+import org.me.lastpiece.Command.editMana;
 import org.me.lastpiece.Events.Mana;
 import org.me.lastpiece.Events.playerJoin;
 import org.me.lastpiece.Events.playerLeave;
@@ -21,6 +23,8 @@ public final class Lastpiece extends JavaPlugin {
         //Mana
         manaInstance = new Mana();
         manaInstance.init();
+        getCommand("editManaCap").setExecutor(new editCap());
+        getCommand("editPlayerMana").setExecutor(new editMana());
 
         //Item Interact
         getServer().getPluginManager().registerEvents(new onInteract(), this);
