@@ -27,6 +27,9 @@ public class editMana implements CommandExecutor {
             }
             catch (Exception e){
                 p.sendMessage(ChatColor.RED + "An Error Occurred When Running This Command");
+                if(p.isOp()){
+                    p.sendMessage(ChatColor.RED + e.getMessage());
+                }
             }
 
         }
