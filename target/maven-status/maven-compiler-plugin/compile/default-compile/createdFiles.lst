@@ -1,7 +1,0 @@
-org\me\lastpiece\Events\playerJoin.class
-org\me\lastpiece\Events\playerLeave.class
-org\me\lastpiece\Lastpiece.class
-org\me\lastpiece\Events\Mana.class
-Models\Mana.class
-org\me\lastpiece\Listeners\onInteract.class
-org\me\lastpiece\Events\Mana$1.class
