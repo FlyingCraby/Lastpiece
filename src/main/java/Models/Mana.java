@@ -54,7 +54,6 @@ public class Mana {
     }
 
     private void regenMana(){
-
         //Runs a scheduler to add Mana per 2 sec
         BukkitScheduler scheduler = getServer().getScheduler();
         scheduler.scheduleSyncRepeatingTask((Plugin) this, new Runnable() {
