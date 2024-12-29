@@ -12,21 +12,16 @@ import java.util.UUID;
 public class playerJoin implements Listener {
 
     @EventHandler
-    public void onJoin(PlayerJoinEvent e) throws IOException {
+    public void onJoin(PlayerJoinEvent e){
         Player player = e.getPlayer();
         UUID uuid = player.getUniqueId();
 
         //Instances
-        Mana mana = Lastpiece.getManaInstance();
 
         //if New Player
-        if (!player.hasPlayedBefore()){
-            mana.createPlayer(player);
-        }
 
         //Setup All features
-
-        mana.adPlayer(uuid);
+        Lastpiece.getPlayers().put(uuid, new Models.Player(player));
     }
 
 }

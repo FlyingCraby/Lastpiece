@@ -22,7 +22,7 @@ public class editCap implements CommandExecutor {
                     p.sendMessage(ChatColor.RED + "Player Not Online");
                 }
                 else{
-                    Lastpiece.getManaInstance().changeManaCap(target.getUniqueId(), Integer.parseInt(args[1]));
+                    Lastpiece.getPlayers().get(p.getUniqueId()).mana.setCap(Integer.parseInt(args[1]));
                 }
             }
             catch (Exception e){

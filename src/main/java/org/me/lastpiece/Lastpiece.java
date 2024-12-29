@@ -1,28 +1,28 @@
 package org.me.lastpiece;
 
+import Models.Player;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.me.lastpiece.Command.editCap;
 import org.me.lastpiece.Command.editMana;
-import org.me.lastpiece.Events.Mana;
 import org.me.lastpiece.Events.playerJoin;
 import org.me.lastpiece.Events.playerLeave;
 import org.me.lastpiece.Listeners.onInteract;
 
-public final class Lastpiece extends JavaPlugin {
+import java.util.TreeMap;
+import java.util.UUID;
 
+public final class Lastpiece extends JavaPlugin {
     private static Lastpiece plugin;
-    private static Mana manaInstance;
+
+    private static TreeMap<UUID, Player> players = new TreeMap<>();
 
     @Override
     public void onEnable() {
         // Plugin startup logic
         plugin = this;
 
-        //Mana
-        manaInstance = new Mana();
-        manaInstance.init();
         getCommand("editManaCap").setExecutor(new editCap());
         getCommand("editPlayerMana").setExecutor(new editMana());
 
@@ -48,8 +48,5 @@ public final class Lastpiece extends JavaPlugin {
         return plugin;
     }
 
-    public static Mana getManaInstance() {
-        return manaInstance;
-    }
-
+    public static TreeMap<UUID, Player> getPlayers(){return players;}
 }

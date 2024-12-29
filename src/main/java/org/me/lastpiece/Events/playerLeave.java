@@ -15,9 +15,8 @@ public class playerLeave implements Listener {
         Player player = e.getPlayer();
         UUID uuid = player.getUniqueId();
 
-        //Leave stuff
-
-        Lastpiece.getManaInstance().removePlayer(uuid);
+        //Leave quick access
+        Lastpiece.getPlayers().remove(uuid);
 
     }
 }
