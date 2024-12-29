@@ -6,7 +6,6 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.me.lastpiece.Lastpiece;
 
-import java.io.IOException;
 import java.util.UUID;
 
 public class playerJoin implements Listener {
@@ -21,7 +20,7 @@ public class playerJoin implements Listener {
         //if New Player
 
         //Setup All features
-        Lastpiece.getPlayers().put(uuid, new Models.Player(player));
+        Lastpiece.getPlayers().put(uuid, new org.me.lastpiece.Models.Player(player));
     }
 
 }

@@ -1,4 +1,4 @@
-package Models;
+package org.me.lastpiece.Models;
 
 import net.md_5.bungee.api.ChatMessageType;
 import net.md_5.bungee.api.chat.TextComponent;
