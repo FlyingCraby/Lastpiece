@@ -2,3 +2,22 @@ name: Lastpiece
 version: '0.0-Alpha'
 main: org.me.lastpiece.Lastpiece
 api-version: '1.21'
+
+commands:
+  editManaCap:
+    description: Edit a player's Mana Cap
+    usage: /editManaCap <Player> <New Cap>
+    permission: Lastpiece.ManaClearance
+    aliases:
+      - manaCap
+  editPlayerMana:
+    description: Edit a player's Mana by certain Amount
+    usage: /editPlayerMana <Player> <Edit Amount>
+    permission: Lastpiece.ManaClearance
+    aliases:
+      - newMana
+
+permissions:
+  Lastpiece.ManaClearance:
+    description: Allows some players to gain Mana Clearance
+    default: op
