@@ -6,66 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="12770d75-1f3e-45de-a1a7-b71fd39bd5aa" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Models/Mana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/me/lastpiece/Models/Mana.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Models/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/me/lastpiece/Models/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/me/lastpiece/Events/playerJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/me/lastpiece/Events/playerJoin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/me/lastpiece/Lastpiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/me/lastpiece/Lastpiece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/me/lastpiece/Items/BoomWand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/me/lastpiece/Items/BoomWand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/me/lastpiece/Listeners/onInteract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/me/lastpiece/Listeners/onInteract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Lastpiece-0.0-Alpha-shaded.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Lastpiece-0.0-Alpha-shaded.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Models/Mana$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Models/Mana.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Models/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/me/lastpiece/Command/editCap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/me/lastpiece/Command/editCap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/me/lastpiece/Command/editMana.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/me/lastpiece/Command/editMana.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/me/lastpiece/Events/playerJoin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/me/lastpiece/Events/playerJoin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/me/lastpiece/Lastpiece.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/me/lastpiece/Lastpiece.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/original-Lastpiece-0.0-Alpha.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-Lastpiece-0.0-Alpha.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/bukkit.yml" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/bukkit.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/commands.yml" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/commands.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/ops.json" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/ops.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/plugins/Lastpiece-0.0-Alpha.jar" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/plugins/Lastpiece-0.0-Alpha.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/server.properties" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/server.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/spigot.yml" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/spigot.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/world/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/world/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/world/datapacks/bukkit/pack.mcmeta" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/world/datapacks/bukkit/pack.mcmeta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/world/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/world/entities/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/world/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/world/entities/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/world/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/world/entities/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/world/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/world/entities/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/world/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/world/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/world/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/world/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/world/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/world/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/world/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/world/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/world/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/world/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/world/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/world/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/world/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/world/session.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/world_nether/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/world_nether/DIM-1/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/world_nether/DIM-1/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/world_nether/DIM-1/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/world_nether/DIM-1/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/world_nether/DIM-1/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/world_nether/DIM-1/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/world_nether/DIM-1/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/world_nether/DIM-1/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/world_nether/DIM-1/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/world_nether/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/world_nether/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/world_nether/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/world_nether/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/world_nether/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/world_nether/session.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/world_the_end/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/world_the_end/DIM1/data/raids_end.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/world_the_end/DIM1/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/world_the_end/DIM1/entities/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/world_the_end/DIM1/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/world_the_end/DIM1/entities/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/world_the_end/DIM1/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/world_the_end/DIM1/entities/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/world_the_end/DIM1/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/world_the_end/DIM1/entities/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/world_the_end/DIM1/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/world_the_end/DIM1/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/world_the_end/DIM1/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/world_the_end/DIM1/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/world_the_end/DIM1/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/world_the_end/DIM1/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/world_the_end/DIM1/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/world_the_end/DIM1/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/world_the_end/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/world_the_end/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/world_the_end/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/world_the_end/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testServer/world_the_end/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/testServer/world_the_end/session.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/me/lastpiece/Models/Mana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/me/lastpiece/Models/Mana.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

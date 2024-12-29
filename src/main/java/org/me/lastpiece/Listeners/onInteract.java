@@ -17,12 +17,7 @@ public class onInteract implements Listener {
             if (e.hasItem()){
                 //Call different abilities and functions of items
                 if(e.getItem().getItemMeta() == Lastpiece.getItems().boomWand.getWand().getItemMeta()){
-                    if(getSpecificAction(e).equals(Action.RIGHT_CLICK_AIR)){
-                        player.getWorld().createExplosion(player.getLocation(), 10);
-                    }
-                    else{
-                        player.getWorld().createExplosion(e.getClickedBlock().getLocation(),10);
-                    }
+                    Lastpiece.getItems().boomWand.goBoom(e);
                 }
             }
         }
