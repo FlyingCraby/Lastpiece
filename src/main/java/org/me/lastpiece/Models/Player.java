@@ -1,4 +1,4 @@
-package Models;
+package org.me.lastpiece.Models;
 
 public class Player {
     public org.bukkit.entity.Player player;

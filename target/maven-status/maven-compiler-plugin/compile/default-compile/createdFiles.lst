@@ -1,9 +1,12 @@
-Models\Player.class
 org\me\lastpiece\Events\playerJoin.class
 org\me\lastpiece\Command\editCap.class
 org\me\lastpiece\Events\playerLeave.class
-Models\Mana$1.class
 org\me\lastpiece\Lastpiece.class
-Models\Mana.class
+org\me\lastpiece\Models\Player.class
+org\me\lastpiece\Items\itemManager.class
+org\me\lastpiece\Models\Mana.class
 org\me\lastpiece\Listeners\onInteract.class
+org\me\lastpiece\Models\Mana$1.class
+org\me\lastpiece\Command\getBoomWand.class
+org\me\lastpiece\Items\BoomWand.class
 org\me\lastpiece\Command\editMana.class

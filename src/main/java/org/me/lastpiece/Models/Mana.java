@@ -1,4 +1,4 @@
-package Models;
+package org.me.lastpiece.Models;
 
 import net.md_5.bungee.api.ChatMessageType;
 import net.md_5.bungee.api.chat.TextComponent;
@@ -16,6 +16,7 @@ public class Mana {
     public int currentMana;
     public UUID playerId;
     public Player player;
+    long timer;
 
     public Mana(int cap, int currentMana, UUID uuid, Player player){
         this.cap = cap;
@@ -39,16 +40,20 @@ public class Mana {
             setCurrentMana(cap);
         }
         else if(currentMana + edit < 0){
+            String message = ChatColor.DARK_RED + "Not Enough MANA";
+            player.spigot().sendMessage(ChatMessageType.ACTION_BAR, TextComponent.fromLegacyText(message));
+            timer = System.currentTimeMillis();
             return false;
         }
         else{
             setCurrentMana(currentMana + edit);
+            displayMana();
         }
-        display();
+        displayMana();
         return true;
     }
 
-    private void display(){
+    private void displayMana(){
         String message = ChatColor.AQUA + "Mana: " + currentMana + "/" + cap;
         player.spigot().sendMessage(ChatMessageType.ACTION_BAR, TextComponent.fromLegacyText(message));
     }
@@ -62,7 +67,10 @@ public class Mana {
                 //increase MANA
                 int increasePerSec = 5;
                 setCurrentMana(Math.min(currentMana + increasePerSec, cap));
-                display();
+                if(System.currentTimeMillis() >= timer + 2000){
+                    displayMana();
+                    timer = 0;
+                }
             }
         }, 0L, 20L);
     }

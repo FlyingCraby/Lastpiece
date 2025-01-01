@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="12770d75-1f3e-45de-a1a7-b71fd39bd5aa" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/me/lastpiece/Items/BoomWand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/me/lastpiece/Items/BoomWand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/me/lastpiece/Listeners/onInteract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/me/lastpiece/Listeners/onInteract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/me/lastpiece/Models/Mana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/me/lastpiece/Models/Mana.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +39,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Alpha-0.0",
+    "git-widget-placeholder": "Alpha-0.0-Test",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/yszho/Desktop/Lastpiece",
     "project.structure.last.edited": "Project",

@@ -16,8 +16,18 @@ commands:
     permission: Lastpiece.ManaClearance
     aliases:
       - newMana
+  getBoomWand:
+    description: Gives a player the Boom Wand.
+    usage: /getBoomWand <Player>
+    permission: Lastpiece.ExoticItemClearance
+    aliases:
+      - giveBoomWand
 
 permissions:
   Lastpiece.ManaClearance:
-    description: Allows some players to gain Mana Clearance
+    description: Allows some players to affect mana.
+    default: op
+
+  Lastpiece.ExoticItemClearance:
+    description: Allows some players to use exotic items.
     default: op

@@ -1,6 +1,8 @@
 package org.me.lastpiece;
 
-import Models.Player;
+import org.me.lastpiece.Command.getBoomWand;
+import org.me.lastpiece.Items.itemManager;
+import org.me.lastpiece.Models.Player;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -17,16 +19,19 @@ public final class Lastpiece extends JavaPlugin {
     private static Lastpiece plugin;
 
     private static TreeMap<UUID, Player> players = new TreeMap<>();
+    private static itemManager items;
 
     @Override
     public void onEnable() {
         // Plugin startup logic
         plugin = this;
 
+        //Commands
         getCommand("editManaCap").setExecutor(new editCap());
         getCommand("editPlayerMana").setExecutor(new editMana());
+        getCommand("getBoomWand").setExecutor(new getBoomWand());
 
-        //Item Interact
+        //Events
         getServer().getPluginManager().registerEvents(new onInteract(), this);
 
         //Player Join
@@ -34,6 +39,9 @@ public final class Lastpiece extends JavaPlugin {
 
         //Player Leave
         getServer().getPluginManager().registerEvents(new playerLeave(), this);
+
+        //Custom Items
+        items = new itemManager();
 
         Bukkit.broadcastMessage(ChatColor.RED + "[SERVER] " + ChatColor.GREEN + "Lastpiece Plugin ");
 
@@ -49,4 +57,6 @@ public final class Lastpiece extends JavaPlugin {
     }
 
     public static TreeMap<UUID, Player> getPlayers(){return players;}
+
+    public static itemManager getItems(){return items;}
 }

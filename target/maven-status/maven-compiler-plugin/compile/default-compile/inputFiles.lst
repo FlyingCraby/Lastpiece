@@ -1,8 +1,11 @@
-C:\Users\yszho\Desktop\Lastpiece\src\main\java\Models\Mana.java
-C:\Users\yszho\Desktop\Lastpiece\src\main\java\Models\Player.java
 C:\Users\yszho\Desktop\Lastpiece\src\main\java\org\me\lastpiece\Command\editCap.java
 C:\Users\yszho\Desktop\Lastpiece\src\main\java\org\me\lastpiece\Command\editMana.java
+C:\Users\yszho\Desktop\Lastpiece\src\main\java\org\me\lastpiece\Command\getBoomWand.java
 C:\Users\yszho\Desktop\Lastpiece\src\main\java\org\me\lastpiece\Events\playerJoin.java
 C:\Users\yszho\Desktop\Lastpiece\src\main\java\org\me\lastpiece\Events\playerLeave.java
+C:\Users\yszho\Desktop\Lastpiece\src\main\java\org\me\lastpiece\Items\BoomWand.java
+C:\Users\yszho\Desktop\Lastpiece\src\main\java\org\me\lastpiece\Items\itemManager.java
 C:\Users\yszho\Desktop\Lastpiece\src\main\java\org\me\lastpiece\Lastpiece.java
 C:\Users\yszho\Desktop\Lastpiece\src\main\java\org\me\lastpiece\Listeners\onInteract.java
+C:\Users\yszho\Desktop\Lastpiece\src\main\java\org\me\lastpiece\Models\Mana.java
+C:\Users\yszho\Desktop\Lastpiece\src\main\java\org\me\lastpiece\Models\Player.java
